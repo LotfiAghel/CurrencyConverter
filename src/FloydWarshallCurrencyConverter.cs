@@ -1,3 +1,9 @@
+/// <summary>
+/// why Floyd Warshall is the best method I know for this situation:
+///    because we need good performance for the Convert function, and with Floyd we can pre-process all paths and fetch every path at first
+/// </summary>
+
+
 class FloydWarshallCurrencyConverter : ICurrencyConverter
 {
 
